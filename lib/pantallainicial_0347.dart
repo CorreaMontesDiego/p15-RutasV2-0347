@@ -19,13 +19,25 @@ class PantallaInicial0347 extends StatelessWidget {
               onPressed: () {
                 Navigator.pushNamed(context, "/Pantalla1_0347");
               },
+              style:
+                  ElevatedButton.styleFrom(backgroundColor: Color(0xc4230a93)),
               child: Text("Mover a pantalla 1"),
             ),
             ElevatedButton(
               onPressed: () {
                 Navigator.pushNamed(context, "/Pantalla2_0347");
               },
+              style:
+                  ElevatedButton.styleFrom(backgroundColor: Color(0xcd41818c)),
               child: Text("Mover a pantalla 2"),
+            ),
+            ElevatedButton(
+              onPressed: () {
+                Navigator.pushNamed(context, "/Pantalla3_0347");
+              },
+              style:
+                  ElevatedButton.styleFrom(backgroundColor: Color(0xc34766cd)),
+              child: Text("Mover a pantalla 3"),
             )
           ], // niños
         ),

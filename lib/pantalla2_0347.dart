@@ -13,21 +13,20 @@ class Pantalla2_0347 extends StatelessWidget {
       ),
       body: Center(
         child: Container(
-          color: Color(0x1f716a82),
-          width: double.infinity,
-          height: 300,
-          child: Card(
-            shape:
-                RoundedRectangleBorder(borderRadius: BorderRadius.circular(30)),
-            color: Color(0xff9281b1),
-            margin: EdgeInsets.all(32),
-            child: Padding(
-              padding: EdgeInsets.all(16),
-              child: Text("Card 2 Correa", style: TextStyle(fontSize: 45)),
-            ),
+          color: Color(0xff614e93),
+          constraints: BoxConstraints(
+            minHeight: 100,
+            minWidth: 300,
+            maxHeight: 300,
+            maxWidth: 300,
+          ),
+          child: Text(
+            "Card 2 Correa 0347",
+            style: TextStyle(fontSize: 40, color: Color(0xfffffefe)),
           ),
         ),
       ),
     );
   } //widget
 } // fin pantalla2
+//
